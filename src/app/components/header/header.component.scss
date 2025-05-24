@@ -12,7 +12,13 @@
   width: 100%;
   z-index: 1100;
 }
-
+.heading
+{
+  padding: 0 0 0 20px;
+  margin: 0;
+  color: orange;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 .header-left,
 .header-right {
   display: flex;
@@ -21,7 +27,8 @@
 }
 
 .logo img {
-  width: 220px;
+  width: 80px;
+  padding: 5px 0 0 30px;
 
 }
 
@@ -90,7 +97,7 @@
     justify-content: space-between;
   }
   .logo img {
-    width: 150px;
+    width: 70px;
     left: 100px;
   }
 
