@@ -1,0 +1,11 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* On mobile, stack content */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+}

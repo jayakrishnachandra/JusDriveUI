@@ -1,0 +1,40 @@
+
+.dashboard {
+  margin-top: 60px; /* leave space for header */
+  padding: 10px;
+  padding-left: 30px;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 170px; /* leave space for sidebar on large screens */
+}
+
+/* On mobile, sidebar is hidden so make dashboard full width */
+@media (max-width: 768px) {
+  .dashboard {
+    margin-left: 0;
+  }
+}
+
+/* Example card styling */
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+  
+}
+
+.card {
+  background: #fff;
+  border : 2px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 20px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.chart-container {
+  background: #fff;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 20px;
+}
